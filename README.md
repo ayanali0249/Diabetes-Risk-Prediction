@@ -65,12 +65,25 @@ streamlit run app.py
 
 ## Folder Structure
 
-.
 ├── diabetes_prediction.ipynb       # Jupyter notebook with complete ML workflow  
 ├── diabetes_model.pkl              # Trained Random Forest model  
 ├── scaler.pkl                      # Scaler used for normalizing user inputs  
 ├── app.py                          # Streamlit app for prediction  
 ├── README.md                       # Project documentation  
+
+
+## Screenshots
+
+- **SHAP Plot** – Shows top features influencing predictions  
+  <img width="440" height="680" alt="image" src="https://github.com/user-attachments/assets/707f0e77-fdd4-4185-9dd7-d42725cd546b" />
+
+- **Streamlit App** – Interactive interface for diabetes risk prediction  
+  <img width="1920" height="965" alt="Screenshot 2025-07-27 145858" src="https://github.com/user-attachments/assets/5537480f-6c19-4526-8f90-3605e7b8bff2" />
+  <img width="1920" height="953" alt="Screenshot 2025-07-27 145813" src="https://github.com/user-attachments/assets/fdb82075-7a14-4b21-b031-cd9ce6201b11" />
+
+- **Feature Importance** – Visualizes key factors from the Random Forest model  
+  <img width="706" height="435" alt="image" src="https://github.com/user-attachments/assets/5af40ab9-32c8-4764-b96b-d9c4110500bd" />
+
 
 ## Contact
 
